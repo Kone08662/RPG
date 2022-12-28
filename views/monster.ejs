@@ -1,0 +1,19 @@
+<!--樣板-->
+<% layout('gameLayout') %>
+
+
+    <!--button 玩家選項-->
+    <form action="#" method="get">
+
+        <div class="row">
+            <div class="col">
+                <input type="submit" class="btn btn-primary btn-lg" value= <%= buttonValue[0] %> formaction="/challenge/monsterDuel">
+            </div>
+
+            <div class="col">
+                <input type="submit" class="btn btn-primary btn-lg" value= <%= buttonValue[1] %> onclick= window.alert("沒有逃走的機會!")>
+            </div>
+        </div>
+
+    </form>
+

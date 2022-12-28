@@ -1,0 +1,22 @@
+<!--樣板-->
+<% layout('gameLayout') %>
+
+
+    <!--button 玩家選項-->
+    <form action="<%= actionPath %>" method="get" >
+
+        <div class="row">
+            <div class="col">
+                <input type="submit" class="btn btn-primary btn-lg" value= <%= buttonValue[0] %> >
+            </div>
+
+            <div class="col">
+                <input type="submit" class="btn btn-primary btn-lg" value= <%= buttonValue[1] %> >
+            </div>
+
+            <div class="col">
+                <input type="submit" class="btn btn-primary btn-lg" value= <%= buttonValue[2] %> >
+            </div>
+        </div>
+
+    </form>
